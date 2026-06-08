@@ -18,4 +18,19 @@ A sandbox to practice and demonstrate:
 - Pull requests and code review
 - Tags and releases
 
+## Example: greeting script
+
+A small Python script demonstrates the workflow:
+
+```bash
+python3 greet.py            # -> Hello, World!
+python3 greet.py Vlad       # -> Hello, Vlad!
+```
+
+Run the tests:
+
+```bash
+python3 -m pytest           # or: python3 -c "import test_greet; ..."
+```
+
 Happy hacking! 🚀
